@@ -69,6 +69,16 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.description-section"
+    },
+    "Contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.contact"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.footer"
     }
   }
 }

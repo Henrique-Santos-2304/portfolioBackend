@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_button_sends",
+  "info": {
+    "name": "buttonSend",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

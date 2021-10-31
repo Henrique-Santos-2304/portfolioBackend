@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_icons_contact_socials",
+  "info": {
+    "name": "iconsContactSocial",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "text",
+      "required": true
+    },
+    "titleIcon": {
+      "type": "string"
+    },
+    "ariaLabel": {
+      "type": "string"
+    }
+  }
+}

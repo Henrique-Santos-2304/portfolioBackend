@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_sections_contacts",
+  "info": {
+    "name": "Contact",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "ariaLabel": {
+      "type": "string"
+    },
+    "ariaLabelTitle": {
+      "type": "string"
+    },
+    "Input": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.input-name"
+    },
+    "inputEmail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.input-name"
+    },
+    "inputMessage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.input-name"
+    },
+    "buttonSend": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.button-send"
+    }
+  }
+}

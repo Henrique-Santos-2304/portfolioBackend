@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_footers",
+  "info": {
+    "name": "footer",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "ariaLabel": {
+      "type": "string"
+    },
+    "iconsContactSocial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.icons-contact-social"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_input_names",
+  "info": {
+    "name": "InputName",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "msgError": {
+      "type": "string"
+    },
+    "textLabel": {
+      "type": "string"
+    }
+  }
+}

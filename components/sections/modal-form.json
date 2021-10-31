@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_modal_forms",
+  "info": {
+    "name": "modalForm",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "ariaLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
