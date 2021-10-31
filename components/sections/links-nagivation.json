@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_links_nagivations",
+  "info": {
+    "name": "linksNagivation",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

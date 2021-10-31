@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_menu_navs",
+  "info": {
+    "name": "menuNav",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "openMenu": {
+      "type": "string",
+      "required": true
+    },
+    "closeMenu": {
+      "type": "string",
+      "required": true
+    },
+    "ariaLabe": {
+      "type": "string"
+    },
+    "navigationPage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.navigation-page"
+    },
+    "linksNagivation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.links-nagivation",
+      "required": true
+    }
+  }
+}

@@ -32,6 +32,11 @@
       "repeatable": false,
       "component": "sections.logo-page",
       "required": true
+    },
+    "menuNav": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.menu-nav"
     }
   }
 }

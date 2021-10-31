@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_navigation_pages",
+  "info": {
+    "name": "navigationPage",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "ariaLabel": {
+      "type": "string"
+    },
+    "imageNav": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "text"
+    }
+  }
+}
