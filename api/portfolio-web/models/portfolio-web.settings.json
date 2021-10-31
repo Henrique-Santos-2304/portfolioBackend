@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolio_webs",
+  "info": {
+    "name": "portfolioWeb"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metaDescription": {
+      "type": "text",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "iconPage": {
+      "type": "string",
+      "required": true
+    },
+    "newsAcessible": {
+      "type": "string"
+    }
+  }
+}
