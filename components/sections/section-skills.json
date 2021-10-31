@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_section_skills",
+  "info": {
+    "name": "sectionSkills",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slidesSkills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.slides-skills"
+    },
+    "arialabelTitle": {
+      "type": "string"
+    },
+    "ariaLabel": {
+      "type": "string"
+    }
+  }
+}

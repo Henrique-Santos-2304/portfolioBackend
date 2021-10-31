@@ -48,6 +48,27 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.section-project"
+    },
+    "descriptionSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.description-section",
+      "required": true
+    },
+    "sectionSkills": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-skills"
+    },
+    "descriptionSkill": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.description-section"
+    },
+    "descriptionProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.description-section"
     }
   }
 }

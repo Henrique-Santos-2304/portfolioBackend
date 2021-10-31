@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_description_sections",
+  "info": {
+    "name": "descriptionSection",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "descriprions": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

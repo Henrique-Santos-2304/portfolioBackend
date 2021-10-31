@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_slides_skills",
+  "info": {
+    "name": "slidesSkills",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "ariaLabel": {
+      "type": "string"
+    },
+    "altImage": {
+      "type": "string",
+      "required": true
+    },
+    "imageSkills": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "url": {
+      "type": "string"
+    },
+    "titleSkill": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
