@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_logo_pages",
+  "info": {
+    "name": "logoPage",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "imageLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "preText": {
+      "type": "string"
+    },
+    "proText": {
+      "type": "string"
+    }
+  }
+}
