@@ -21,6 +21,11 @@
     },
     "ariaLabel": {
       "type": "string"
+    },
+    "slidesCssSkilss": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.slides-skills"
     }
   }
 }
