@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_my_descriptions",
+  "info": {
+    "name": "myDescription",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "welcome": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "devDescription": {
+      "type": "string"
+    }
+  }
+}

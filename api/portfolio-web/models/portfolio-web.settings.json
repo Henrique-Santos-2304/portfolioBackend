@@ -37,6 +37,12 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.menu-nav"
+    },
+    "Home": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.home",
+      "required": true
     }
   }
 }

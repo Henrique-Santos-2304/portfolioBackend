@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_homes",
+  "info": {
+    "name": "Home",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "ariaLabel": {
+      "type": "string"
+    },
+    "textName": {
+      "type": "string"
+    },
+    "myDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.my-description"
+    },
+    "photoUser": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.photo-user"
+    }
+  }
+}

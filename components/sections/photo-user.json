@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_photo_users",
+  "info": {
+    "name": "photoUser",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "userImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "arialabel": {
+      "type": "string"
+    }
+  }
+}
