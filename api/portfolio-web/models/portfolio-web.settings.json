@@ -43,6 +43,11 @@
       "repeatable": false,
       "component": "sections.home",
       "required": true
+    },
+    "sectionProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-project"
     }
   }
 }

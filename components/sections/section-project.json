@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_section_projects",
+  "info": {
+    "name": "sectionProject",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slidesProject": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.slides-project"
+    }
+  }
+}
