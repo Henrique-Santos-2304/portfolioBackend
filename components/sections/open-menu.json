@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_open_menus",
+  "info": {
+    "name": "openMenu",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "ariaLabel": {
+      "type": "string"
+    }
+  }
+}

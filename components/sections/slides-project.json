@@ -2,11 +2,12 @@
   "collectionName": "components_sections_slides_projects",
   "info": {
     "name": "slidesProject",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "titleProject": {
+    "title": {
       "type": "string",
       "required": true
     },
@@ -17,21 +18,12 @@
     "ariaLabel": {
       "type": "string"
     },
-    "ariaLabelImage": {
-      "type": "string"
-    },
-    "altImage": {
-      "type": "string"
-    },
-    "option": {
-      "type": "string"
-    },
     "ariaLabelButton": {
       "type": "string",
       "required": true,
       "default": "Link para o Código"
     },
-    "imageProject": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

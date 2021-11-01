@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_close_menus",
+  "info": {
+    "name": "closeMenu",
+    "icon": "arrow-alt-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "ariaLabel": {
+      "type": "string"
+    }
+  }
+}
