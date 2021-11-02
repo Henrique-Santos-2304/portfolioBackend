@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_msg_send_emails",
+  "info": {
+    "name": "msgSendEmail",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "msgSucess": {
+      "type": "string"
+    },
+    "msgError": {
+      "type": "string"
+    },
+    "ariaLabel": {
+      "type": "string"
+    },
+    "msgFormatEmail": {
+      "type": "string"
+    }
+  }
+}
